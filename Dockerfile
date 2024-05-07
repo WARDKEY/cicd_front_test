@@ -12,6 +12,7 @@ RUN npm install
 RUN npm i axios
 RUN npm install vuex@next --save
 
+
 # 포트번호 노출
 EXPOSE 8081
 
