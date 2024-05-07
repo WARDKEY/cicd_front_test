@@ -8,7 +8,6 @@ WORKDIR /front-vue
 # 현재 디렉토리에 있는 모든 파일을 WORKDIR로 이동
 COPY . .
 
-
 # 필요한 의존관계 라이브러리를 설치하는 명령어
 RUN npm install
 RUN npm i axios
