@@ -5,7 +5,6 @@ FROM node:20.12.2
 # 클라우드 환경에서 디렉토리를 의미
 WORKDIR /front-vue
 
-
 # 현재 디렉토리에 있는 모든 파일을 WORKDIR로 이동
 COPY . .
 
